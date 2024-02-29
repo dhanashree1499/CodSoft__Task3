@@ -1,0 +1,49 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <title>Calculator</title>
+    <link rel="stylesheet" href="task3.css">
+</head>
+<body>
+    <center><h1>Calculator</h1></center>
+    <table id="calcu"> 
+        <tr> 
+            <td colspan="3"> 
+                <div class="display">
+                    <input type="text" id="display">
+                </div>
+                <td>
+                    <input type="button" value="AC" onclick="display.value=''"class="operator">
+                </td>
+            </td>
+        </tr>
+
+        <tr>
+            <td><input type="button" value="1" OnClick="display.value += '1'"></td>
+            <td><input type="button" value="2" OnClick="display.value += '2'"></td>
+            <td><input type="button" value="3" OnClick="display.value += '3'"></td>
+            <td><input type="button" value="/" OnClick="display.value += '/'" class="operator"></td>
+        </tr>
+        <tr>
+            <td><input type="button" value="4" OnClick="display.value += '4'"></td>
+            <td><input type="button" value="5" OnClick="display.value += '5'"></td>
+            <td><input type="button" value="6" OnClick="display.value += '6'"></td>
+            <td><input type="button" value="*" OnClick="display.value += '*'" class="operator"></td>
+        </tr>
+        <tr>
+            <td><input type="button" value="7" OnClick="display.value += '7'"></td>
+            <td><input type="button" value="8" OnClick="display.value += '8'"></td>
+            <td><input type="button" value="9" OnClick="display.value += '9'"></td>
+            <td><input type="button" value="-" OnClick="display.value += '-'" class="operator"></td>
+        </tr>
+        <tr>
+            <td><input type="button" value="0" OnClick="display.value += '0'"></td>
+            <td><input type="button" value="." OnClick="display.value += '.'"></td>
+            <td><input type="button" value="=" OnClick="display.value =eval(display.value) " class="equal"></td>
+            <td><input type="button" value="+" OnClick="display.value += '+'" class="operator"></td>
+        </tr>
+        </div>
+    </ta>
+</body>
+</html>
+
